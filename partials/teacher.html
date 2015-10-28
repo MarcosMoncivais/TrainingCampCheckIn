@@ -1,0 +1,21 @@
+<div class='row'>
+  <div class='col-md-12'>
+    <h1>Who's here?</h1>
+
+    <h2>Here</h2>
+    <ul>
+      <li ng-repeat="item in filtered = (students | filter: {signedIn: true})">
+          {{item.name}}
+      </li>
+    </ul>
+
+    <h2>Not Here</h2>
+    <ul>
+      <li ng-repeat="item in filtered = (students | filter: {signedIn: false})">
+          {{item.name}}
+      </li>
+    </ul>
+    <h6><a ui-sref="sign-in">Have you signed in yet?</a></h6>
+    <h6><a ui-sref="home">Go Back</a></h6>
+  </div>
+</div>
