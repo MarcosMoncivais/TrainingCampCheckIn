@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 var SignIn = angular.module('SignIn', ['ui.router']);
 
 SignIn.config(function($stateProvider, $urlRouterProvider){
@@ -23,9 +22,7 @@ SignIn.config(function($stateProvider, $urlRouterProvider){
 
 
 });
-=======
 var studentRoster = angular.module('studentRoster', []);
->>>>>>> faab53fc93a53905a272e586193939671b23c7f2
-=======
+
 var studentRoster = angular.module('studentRoster', []);
->>>>>>> faab53fc93a53905a272e586193939671b23c7f2
+
